@@ -20,7 +20,7 @@ public class LearningClasses {
         Car.vehiclename = "BMW 1 Series";
         
         Vehicles Bike = new Vehicles();
-        Bike
+        Bike.vehiclename = "Kawasaki Ninja";
     }
 }
 
