@@ -16,8 +16,8 @@ public class LearningClasses {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Vehicles car = new Vehicles;
-        car.vehicleName = "BMW 1 Series";
+        Vehicles Car = new Vehicles;
+        Car.vehicleName = "BMW 1 Series";
     }
     
     static class Vehicles {
