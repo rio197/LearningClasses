@@ -18,11 +18,19 @@ public class LearningClasses {
         // TODO code application logic here
         Vehicles Car = new Vehicles();
         Car.vehicleName = "BMW 1 Series";
+        Car.GetDetails();
     }
     
     static class Vehicles {
         String vehicleName;
         int numberOfTires;
         double topSpeed;
+        
+        void GetDetails () {
+            System.out.println("Name of the vehicle");
+            System.out.println(vehicleName);
+            System.out.println(numberOfTires);
+            System.out.println(topSpeed);
+        }
     }    
 }
