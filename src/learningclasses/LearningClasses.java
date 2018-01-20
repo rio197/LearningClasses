@@ -18,6 +18,7 @@ public class LearningClasses {
         // TODO code application logic here
         Vehicles Car = new Vehicles();
         Car.vehicleName = "BMW 1 Series";
+        Car.numberOfTires = 2;
         Car.GetDetails();
     }
     
@@ -31,6 +32,11 @@ public class LearningClasses {
             System.out.println(vehicleName);
             System.out.println(numberOfTires);
             System.out.println(topSpeed);
+        }
+        
+        Vehicles () {
+            numberOfTires = 4;
+            topSpeed = 225;
         }
     }    
 }
