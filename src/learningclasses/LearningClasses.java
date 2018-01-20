@@ -7,7 +7,7 @@ package learningclasses;
 
 /**
  *
- * @author rio197
+ * @author tmuchnedy
  */
 public class LearningClasses {
 
@@ -17,15 +17,20 @@ public class LearningClasses {
     public static void main(String[] args) {
         // TODO code application logic here
         Vehicles Car = new Vehicles();
-        Car.vehiclename = "BMW 1 Series";
-        
-        Vehicles Bike = new Vehicles();
-        Bike.vehiclename = "Kawasaki Ninja";
+        Car.vehicleName = "BMW 1 Series";
+        Car.GetDetails();
     }
-}
-
-class Vehicles {
-    String vehiclename;
-    int number_of_tires;
-    double topspeed;
+    
+    static class Vehicles {
+        String vehicleName;
+        int numberOfTires;
+        double topSpeed;
+        
+        void GetDetails () {
+            System.out.println("Name of the vehicle");
+            System.out.println(vehicleName);
+            System.out.println(numberOfTires);
+            System.out.println(topSpeed);
+        }
+    }    
 }
