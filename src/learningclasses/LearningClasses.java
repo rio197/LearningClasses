@@ -17,16 +17,26 @@ public class LearningClasses {
     public static void main(String[] args) {
         // TODO code application logic here
         Vehicles Car = new Vehicles();
+        Vehicles Car2 = new Vehicles();
+        Vehicles Car3 = new Vehicles();
+        Vehicles Car4 = new Vehicles();
+        Vehicles Car5 = new Vehicles();
+        Vehicles Car6 = new Vehicles();
+        
         Car.vehicleName = "BMW 1 Series";
-        Car.numberOfTires = 2;
-        Car.GetDetails();        
+        Car.GetDetails();
+        Car.sayHi();
     }  
 }
 
 class Vehicles {
-        private String vehicleName;
+        String vehicleName;
         int numberOfTires;
         double topSpeed;
+        
+        static void sayHi () {
+            System.out.println("Hi!");
+        }
         
         void GetDetails () {
             System.out.println("Name of the vehicle");
