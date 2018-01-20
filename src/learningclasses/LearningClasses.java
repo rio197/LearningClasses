@@ -19,11 +19,12 @@ public class LearningClasses {
         Vehicles Car = new Vehicles();
         Car.vehicleName = "BMW 1 Series";
         Car.numberOfTires = 2;
-        Car.GetDetails();
-    }
-    
-    static class Vehicles {
-        String vehicleName;
+        Car.GetDetails();        
+    }  
+}
+
+class Vehicles {
+        private String vehicleName;
         int numberOfTires;
         double topSpeed;
         
@@ -38,5 +39,4 @@ public class LearningClasses {
             numberOfTires = 4;
             topSpeed = 225;
         }
-    }    
-}
+    }
