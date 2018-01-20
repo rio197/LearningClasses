@@ -7,7 +7,7 @@ package learningclasses;
 
 /**
  *
- * @author tmuchnedy
+ * @author rio197
  */
 public class LearningClasses {
 
